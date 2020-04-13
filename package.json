@@ -1,0 +1,28 @@
+{
+  "name": "node-sqs-integration",
+  "version": "0.0.1",
+  "description": "Aws Sqs Node Integration",
+  "main": "src/handlers/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaslimao/node-sqs-integration.git"
+  },
+  "keywords": [
+    "aws",
+    "sqs",
+    "node"
+  ],
+  "author": "Lucas Limão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaslimao/node-sqs-integration/issues"
+  },
+  "homepage": "https://github.com/lucaslimao/node-sqs-integration#readme",
+  "dependencies": {
+    "aws-sdk": "^2.656.0",
+    "config": "^3.3.1"
+  }
+}
