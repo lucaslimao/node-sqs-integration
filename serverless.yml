@@ -15,22 +15,7 @@ provider:
           - sqs:ReceiveMessage
           - sqs:DeleteMessage
           - sqs:GetQueueAttributes
-          Resource: "arn:aws:sqs:us-east-1:412490949371:FOLLOW"
-        - Effect: "Allow"
-          Action: 
-          - logs:CreateLogGroup,
-          - logs:PutRetentionPolicy
-          - logs:CreateLogStream,
-          - logs:PutLogEvents,
-          - logs:DescribeLogStreams
-          Resource: "arn:aws:logs:us-east-1:412490949371:log-group:/aws/rds/*"
-        - Effect: "Allow"
-          Action: 
-            - logs:CreateLogStream,
-            - logs:PutLogEvents,
-            - logs:DescribeLogStreams,
-            - logs:GetLogEvents
-          Resource: "arn:aws:logs:us-east-1:412490949371:log-group:/aws/rds/*:log-stream:*"
+          Resource: "SUA_ARN_QUEUE"
 
 functions:
     followConsumerHandler:
