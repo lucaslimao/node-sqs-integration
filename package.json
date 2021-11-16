@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/lucaslimao/node-sqs-integration#readme",
   "dependencies": {
-    "aws-sdk": "^2.656.0",
+    "aws-sdk": "^2.814.0",
     "config": "^3.3.1"
   }
 }
